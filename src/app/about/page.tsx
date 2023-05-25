@@ -15,7 +15,7 @@ export default function About() {
           <a
             className="underline hover:text-primary"
             target="_blank"
-            href="https://www.unicamp.br/unicamp/"
+            href="http://www.internationaloffice.unicamp.br/about-unicamp/"
           >
             Unicamp
           </a>
