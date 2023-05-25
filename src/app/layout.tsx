@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "@/components/Header";
 import { Caveat } from "next/font/google";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ export default function RootLayout({
         </div>
 
         <div className="mb-auto dark:bg-gray-900">{children}</div>
+        <Analytics />
 
         <div className="dark:bg-gray-900">
           <Footer />
