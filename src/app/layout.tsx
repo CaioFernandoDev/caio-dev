@@ -16,7 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={caveat.variable}>
       <body className="flex flex-col h-screen justify-between dark:bg-gray-900">
-        <ThemeProvider attribute="class">
+        <ThemeProvider
+          attribute="class"
+          enableSystem={false}
+          defaultTheme="dark"
+        >
           <div className="dark:bg-gray-900">
             <Header />
           </div>
