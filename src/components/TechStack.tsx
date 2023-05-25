@@ -3,6 +3,7 @@ import IconFirebase from "@/assets/Firebase";
 import IconFlutter from "@/assets/Flutter";
 import IconGit from "@/assets/Git";
 import IconJavascript from "@/assets/Javascript";
+import IconNextjs from "@/assets/Nextjs";
 import IconPython from "@/assets/Python";
 import IconReact from "@/assets/React";
 
@@ -15,6 +16,7 @@ export default function TechStack() {
       </div>
 
       <div className="flex flex-wrap justify-center items-center text-4xl my-5 gap-4 md:gap-8">
+        <IconNextjs />
         <IconReact />
         <IconJavascript />
         <IconGit />

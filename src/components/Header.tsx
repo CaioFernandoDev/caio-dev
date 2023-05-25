@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ColorSwitcher from "./ColorSwitcher";
 
 export const linkStyle =
   "@apply ml-5 font-medium text-center text-lg sm:text-xl text-gray-700 dark:text-gray-200 dark:hover:text-primary hover:text-primary m-auto;";
@@ -14,10 +15,11 @@ export default function Header() {
             </h1>
           </Link>
 
-          <div className="flex flex-row">
+          <div className="flex flex-row items-center">
             <Link className={linkStyle} href="/about">
               About
             </Link>
+            <ColorSwitcher />
           </div>
         </div>
       </nav>

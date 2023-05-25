@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between mt-6 md:mt-0 md:flex-row">
           <div className="logo flex items-center">
             <p className="text-sm text-gray-700 dark:text-gray-200 mx-1">
-              Built with ♡ by Caio Fernando
+              Built with ❤️ by Caio Fernando
             </p>
           </div>
 
