@@ -10,7 +10,7 @@ import IconReact from "@/assets/React";
 export default function TechStack() {
   return (
     <div className="mt-16 md:mt-24">
-      <div className="flex justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300">
+      <div className="flex justify-center items-center text-base font-semibold text-gray-300">
         <h2 className="text-center">What I know</h2>
         <IconDoubleDown />
       </div>
